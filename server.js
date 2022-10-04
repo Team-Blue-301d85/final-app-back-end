@@ -30,7 +30,12 @@ db.once('open', function () {
 // routes
 
 app.get('/', (req, res) => {
-  res.status(200).send('Welcome to server');
+  res.status(200).send(`<h1>Welcome to server</h1>
+                        <h2>Routes</h2>
+                        <ul>
+                          <li>/terms</li>
+                          <li>/test</li>
+                        </ul>`);
 });
 
 app.get('/terms', getTerms);
