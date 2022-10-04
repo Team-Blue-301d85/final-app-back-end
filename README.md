@@ -2,7 +2,7 @@
 
 ## Deployed Heroku App
 
-[git.heroku.com/team-blue-301d85.git](git.heroku.com/team-blue-301d85.git)
+[https://team-blue-301d85.herokuapp.com/](https://team-blue-301d85.herokuapp.com/)
 
 ## Members
 
